@@ -3,9 +3,20 @@
 
 complex::complex() {}
 
+complex::complex(const int& r)
+{
+    re = r;
+    im = 0;
+}
+
 double arg(double re, double im)
 {
     return atan(im/re);
+}
+
+double complex::count_module()
+{
+    return sqrt(re * re + im * im);
 }
 
 complex::complex(double r, double i)

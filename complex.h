@@ -14,6 +14,7 @@ class complex
 public:
     complex();
     complex(double, double);
+    complex(const int&);
 
     complex operator*(complex);
     complex operator+(complex);
@@ -33,7 +34,9 @@ public:
     friend QString& operator<< (QString&, complex);
     friend complex sqrt (complex);
     friend complex pow (complex, double);
-
+private:
+    double count_module();
+    double count_argument();
 
 };
 
