@@ -6,12 +6,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>319</width>
-    <height>344</height>
+    <width>723</width>
+    <height>556</height>
    </rect>
-  </property>
-  <property name="cursor">
-   <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
    <string>Interface</string>
@@ -24,11 +21,14 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>313</width>
-     <height>336</height>
+     <width>711</width>
+     <height>541</height>
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_8">
+    <item row="2" column="0">
+     <widget class="QLineEdit" name="res_line"/>
+    </item>
     <item row="0" column="0">
      <layout class="QGridLayout" name="gridLayout_7">
       <item row="0" column="0">
@@ -195,9 +195,6 @@
        </size>
       </property>
      </spacer>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLineEdit" name="res_line"/>
     </item>
    </layout>
   </widget>
